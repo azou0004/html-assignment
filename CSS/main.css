@@ -1,0 +1,48 @@
+/* Body font */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Header and footer background */
+header, footer {
+    background-color: yellow;
+}
+
+/* Main heading color */
+.site-title {
+    color: blue;
+}
+
+/* Image box shadow */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+/* Hobbies list bullets as squares */
+.hobbies {
+    list-style-type: square;
+}
+
+/* Odd hobbies items background */
+.hobbies li:nth-child(odd) {
+    background-color: pink;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border: 1px solid orange;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: brown;
+}
